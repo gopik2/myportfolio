@@ -1,0 +1,201 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Gopi K - Full Stack Developer Resume</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Segoe+UI:wght@400;700&display=swap');
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(135deg, #d0eafc, #e9e9ff);
+      margin: 0;
+      padding: 40px;
+      color: #333;
+      perspective: 1200px;
+    }
+
+    .container {
+      background-color: #fff;
+      padding: 40px;
+      max-width: 900px;
+      margin: auto;
+      border-radius: 20px;
+      box-shadow: 0 30px 60px rgba(0, 0, 0, 0.1);
+      transform: rotateY(0deg);
+      animation: fadeInUp 1s ease, floatCard 6s infinite ease-in-out;
+      transition: transform 0.3s;
+    }
+
+    .container:hover {
+      transform: rotateY(2deg) scale(1.01);
+    }
+
+    @keyframes fadeInUp {
+      from {
+        opacity: 0;
+        transform: translateY(40px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @keyframes floatCard {
+      0%, 100% {
+        transform: translateY(0);
+      }
+      50% {
+        transform: translateY(-10px);
+      }
+    }
+
+    h1 {
+      font-size: 32px;
+      text-align: center;
+      color: #0b5394;
+      text-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+      margin-bottom: 5px;
+    }
+
+    h2 {
+      font-size: 22px;
+      color: #007ACC;
+      border-bottom: 2px solid #007ACC;
+      padding-bottom: 4px;
+      margin-top: 40px;
+      text-transform: uppercase;
+    }
+
+    .contact {
+      text-align: center;
+      font-size: 16px;
+      margin-bottom: 30px;
+    }
+
+    .contact span {
+      display: inline-block;
+      margin: 5px 15px;
+    }
+
+    ul {
+      padding-left: 20px;
+      margin-top: 10px;
+    }
+
+    li {
+      margin-bottom: 8px;
+      transition: transform 0.3s ease;
+    }
+
+    li:hover {
+      transform: translateX(6px);
+      color: #007ACC;
+    }
+
+    .section {
+      margin-bottom: 30px;
+      animation: fadeInUp 0.8s ease-in-out;
+    }
+
+    p {
+      line-height: 1.6;
+    }
+
+    strong {
+      color: #222;
+    }
+
+    em {
+      color: #555;
+    }
+
+    .icon {
+      margin-right: 8px;
+      color: #007ACC;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1><i class="fas fa-user-tie icon"></i> Gopi K</h1>
+    <div class="contact">
+      <span><i class="fas fa-phone icon"></i>+91-7010968290</span>
+      <span><i class="fas fa-envelope icon"></i>gopipurusoth@gmail.com</span>
+      <span><i class="fas fa-map-marker-alt icon"></i>Chennai</span>
+    </div>
+
+    <div class="section">
+      <h2><i class="fas fa-bullseye icon"></i>Objective</h2>
+      <p>Dedicated .NET and full-stack developer eager to contribute technical expertise to innovative projects, optimizing user engagement and operational performance in a dynamic software environment.</p>
+    </div>
+
+    <div class="section">
+      <h2><i class="fas fa-user-check icon"></i>Professional Summary</h2>
+      <ul>
+        <li>3.5 years of experience in ASP.NET Core Web API, Angular, and database management.</li>
+        <li>Expertise in backend and frontend integration for seamless user experiences.</li>
+        <li>Passionate about optimizing performance and delivering efficient solutions.</li>
+        <li>Currently contributing to ElixirHR WebQuery at Talent Maximus.</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2><i class="fas fa-tools icon"></i>Technical Skills</h2>
+      <ul>
+        <li><strong>Frontend:</strong> HTML5, CSS, JavaScript, TypeScript, Bootstrap5, Tailwind CSS, AJAX, jQuery, Angular 17+, Angular Material, PrimeNG</li>
+        <li><strong>Backend:</strong> ASP.NET Core MVC, Core Web-API 8.0 (Microservices), C#, LINQ</li>
+        <li><strong>Data Access:</strong> ADO.Net, Entity Framework Core</li>
+        <li><strong>Tools:</strong> Visual Studio 2022, Visual Studio Code 1.85</li>
+        <li><strong>Databases:</strong> SQL Server 2019/2022, Oracle 12c (TOAD), MySQL Workbench 8.0.31</li>
+        <li><strong>Version Control:</strong> Git, GitHub</li>
+        <li><strong>Cloud & Hosting:</strong> IIS, Microsoft Azure</li>
+        <li><strong>Architecture & Design:</strong> Clean Architecture, Figma</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2><i class="fas fa-briefcase icon"></i>Professional Experience</h2>
+      <p><strong>Talent Maximus</strong> | Software Engineer<br>
+      <em>Sep 2023 – Present | Team Size: 4</em></p>
+      <p><strong>Project:</strong> Input & Output Tool for Payroll System</p>
+      <ul>
+        <li>Developed centralized payroll system with SLA-driven processing and automated MySQL-to-Oracle migration.</li>
+        <li>Built internal query system supporting roles like Admin, Escalation Contact, and User.</li>
+        <li>Implemented real-time SLA dashboards, chat ticketing, auto-escalation workflows, and secure notifications.</li>
+      </ul>
+      <p><strong>GTEK Techno Solutions</strong> | Software Developer<br>
+      <em>Aug 2022 – Sep 2023 | Team Size: 5</em></p>
+      <p><strong>Project:</strong> Employee Self Service Portal (ESS)</p>
+      <ul>
+        <li>Created role-based leave approval workflows and automated email alerts for HR and employees.</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2><i class="fas fa-graduation-cap icon"></i>Academics</h2>
+      <ul>
+        <li>Bachelor of Engineering – Park College of Technology, Anna University, Coimbatore (2014–2018)</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2><i class="fas fa-language icon"></i>Languages</h2>
+      <ul>
+        <li>English</li>
+        <li>Tamil</li>
+      </ul>
+    </div>
+  </div>
+</body>
+</html>
+
